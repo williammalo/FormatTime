@@ -1,0 +1,1 @@
+var formatTime = function(a){var h=a.getHours(),m=a.getMinutes();return~-h%12+1+":"+(m>9?"":0)+(h>12?m+" PM":m)};
